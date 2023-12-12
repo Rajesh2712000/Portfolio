@@ -33,7 +33,7 @@ const Homes = () => {
                             </div>
                         </div>
                         <div className='text-white pt-10 pr-10'>
-                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        f
                         </div>
                         <div className='pt-24 text-white'>
                             Tools:
@@ -68,8 +68,8 @@ const Homes = () => {
                     <div className='pt-6 grid grid-cols-3 gap-4 justify-center  w-full'>
                         {arr.map((prop,index)=>{
                             return(
-                                <div className='h-[200px] bg-[#1E1D1D] rounded-[20px] text-white'>
-                                                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                <div key={index} className='h-[200px] bg-[#1E1D1D] rounded-[20px] text-white'>
+                                                f
 
                                 </div>
                             )
